@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chu</title>
+    <link rel="stylesheet" href="../Layout/../Layout/css/stylehome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="page_hoder">
+        <header>
+            <div class="container">
+                <div class="contain">
+                    <div class="logo_herder">
+                        <a href="trangchu.html">
+                            <img src="../Layout/img/iht1.png" href alt="" class="img_logo">
+                        </a>
+                    </div>
+
+                    <div class="search-container">
+                        <input type="text" placeholder="Tìm kiếm.....">
+                        <button type="submit"><img src="../Layout/img/OIP.jpg" class="fa fa-search"></img></button>
+                    </div>
+
+
+                    <div class="menu_header">
+                        <nav>
+                            <ul class="nav_link">
+                                <li><a href="datlich.html">Đặt lịch</a></li>
+                                <li><a href="">Liên hệ</a></li>
+                                <li><a href="tinyte.html">Tin y tế</a></li>
+                                <li><a href="">Mua hàng</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                    <div class="login_header">
+                        <nav>
+                            <ul class="nav_link text-decoration-none">
+                                
+                                <partial name="_LoginPartial"/>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="slide_body">
+            <div class="container">
+                <div class="contain_slide">
+                    <img src="../Layout/img/your-medical-booking.webp" alt="" class="img_slide">
+                    <div class="text_slide">
+                        <h1 class="slide_text">Web đặt lịch phòng khám</h1>
+                        <p>
+                            Với sự chăm sóc y tế tốt nhất, đội ngũ ý tế chất lượng cao.
+                            Hãy để chúng tôi chăm sóc sức khỏe của bạn
+                            một cách chuyên nghiệp và chu đáo trên trang web của chúng tôi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="title_datlich">
+            <h1>Đặt lịch khám trực tuyến</h1>
+            <p>Tìm Bác sĩ chính xác - Đặt lịch khám dễ dàng</p>
+        </div>
+        <!-- Phần đặt lịch trang chủ -->
+        <div class="datlich_tc">
+            <div class="title_1">
+                <h3>Đặt khám bác sĩ</h3>
+                <p>Phiếu khám kèm số thứ tự và thời gian của bạn được xác nhận.</p>
+
+        @RenderBody()
+        
+
+           
+        </div>
+
+
+
+
+    </div>
+    <section class="tintt">
+        <div class="title_tin">
+            <h1>Tin Y tế</h1>
+            <p>Chính thống - Minh bạch - Trung lập</p>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h4>Về IHT</h4>
+                    <nav>
+                        <ul class="nav_link">
+                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-3">
+                    <h4>Dịch Vụ</h4>
+                    <nav>
+                        <ul class="nav_link">
+                            <li><a href="">Đặt khám</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-3">
+                    <h4>Hỗ trợ</h4>
+                    <nav>
+                        <ul class="nav_link">
+                            <li><a href="">Điều khoản sử dụng</a></li>
+                            <li><a href="">Chính sách bảo mật</a></li>
+                            <li><a href="">Chinh sách giải quyết khiếu nại</a></li>
+                            <li><a href="">Hỗ trợ khách hàng</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+<script src="../Layout/js/script.js"></script>
+</html>

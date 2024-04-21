@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+@model List<BacSi>
+
+@foreach (var item in Model)
+{
+    <div class="khung">
+        <div class="theobs">
+            <a href=""><img src="../Layout/img/bs1.webp" alt="" class="imgbs"></a>
+            <a href=""><h3></h3>@item.Tenbacsi</a>
+            <nav>
+                <ul class="">
+                    <p>@item.Khoa</p>
+                    <p>@item.ChiTietBacSi.SoNamKinhNghiem</p>
+                </ul>
+            </nav>
+            <a href="" class="bs">
+                <li>
+                    <h3>Dat lich ngay</h3>
+                </li>
+            </a>
+        </div>
+    </div>
+
+    <div class="title_2">
+        <h3>Đặt khám theo chuyên khoa</h3>
+        <p>Danh sách các chuyên khoa ở phòng khám</p>
+        <div class="khung2">
+            <div class="theokhoa">
+                <a href=""><img src="../Layout/img/Yhoccotruyen.webp" alt="" class="img1"><h5>Y hoc co truyen</h5></a>
+
+            </div>
+
+            <div class="theokhoa">
+                <a href=""><img src="../Layout/img/Yhoccotruyen.webp" alt="" class="img1"><h5>Y hoc co truyen</h5></a>
+            </div>
+        </div>
+
+    </div>
+}
+

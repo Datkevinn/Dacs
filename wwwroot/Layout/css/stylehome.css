@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.4;
+    width: 100%;
+    
+}
+
+.khoangtrong{
+    margin-top: 100px;
+}
+
+header{
+    max-width: 0 1140px;
+    background-color: #fff;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    z-index: 9999;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiển thị shadow cho header */
+}
+
+header .container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header .container .contain{
+    display: flex;
+    align-items: center;
+}
+
+
+header .container .contain .logo_herder{
+    flex-basis: 25%;
+}
+
+header .container .contain .search-container input[type="text"]{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 400px;
+    height: 50px;
+}
+
+header .container .contain .search-container{
+    flex-basis: 35%;
+}
+.search-container button {
+    margin-top: 5px;
+    padding: 15px 15px;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.search-container button .fa-search{
+    width: 20px;
+    height: 20px;
+}
+
+
+header .container .contain .logo_herder .img_logo{
+    margin-left:100px;
+}
+
+header .container .contain .menu_header{
+    flex-basis: 25%;
+}
+
+header .container .contain .login_header{
+    flex-basis: 15%;
+}
+
+header .container .contain .menu_header nav .nav_link li{
+    display: inline-block;
+    list-style: none;
+    margin:10px;
+}
+
+header .container .contain .menu_header nav .nav_link li a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif
+}
+
+header .container .contain .login_header nav .nav_link li{
+    margin-right: 10px;
+    display: block;
+    list-style: none;
+}
+
+
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: blue;
+    text-decoration: none;
+    border:1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: skyblue;
+}
+/* Đặt lịch */
+.datlich_tc{
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+ .title_datlich{
+    text-align: center;
+    background-color: #fff;
+}
+.title_datlich p{
+    opacity: 0.5;
+}
+
+.datlich_tc .title_1{
+    flex-basis: 100%;
+    max-width: 100%;
+    width: 1140px; /* Đặt chiều rộng cố định */
+    white-space: nowrap; /* Ngăn chặn việc xuống dòng của nội dung */
+    overflow-x: auto;
+    margin-left: 200px;
+    font-size: 18px;
+}
+.datlich_tc .title_1 p{
+    font-size: 15px;
+    
+}
+
+.datlich_tc .khung{
+    display: flex;
+    color: #000;
+    text-decoration: none;
+    max-width: 90%;
+    overflow-y: auto;
+}
+
+.datlich_tc .khung .theobs{
+    margin-left: 200px;
+    width: 300px;
+    border: 1px solid #ccc; /* Đặt đường viền cho khung chứa */
+    padding: 20px; /* Đặt khoảng cách bên trong khung chứa */
+    margin: 10px; /* Đặt khoảng cách bên ngoài khung chứa */
+    border-radius: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.datlich_tc .title_1 .khung .theobs a:hover{
+    text-decoration: underline;
+}
+
+.datlich_tc .khung .theobs .imgbs{
+    display: flex;
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+}
+
+.datlich_tc .title_1 .khung .theobs a{
+    text-decoration: none;
+}
+/* Đặt lịch theo chuyên khoa */
+.datlich_tc .title_2{
+    flex-basis: 50%;
+    margin-top: 50px;
+    width: 1300px; /* Đặt chiều rộng cố định */
+    white-space: nowrap; /* Ngăn chặn việc xuống dòng của nội dung */
+    overflow-x: auto;
+    margin-left: 200px;
+    font-size: 18px;
+}
+.datlich_tc .title_2 p{
+    font-size: 15px;
+}
+
+.khung2{
+   display: flex;
+    color: #000;
+    text-decoration: none;
+    max-width: 90%;
+    overflow-y: auto;
+}
+.theokhoa{
+    margin-left: 200px;
+    width: 150px;
+    border: 1px solid #ccc; /* Đặt đường viền cho khung chứa */
+    padding: 20px; /* Đặt khoảng cách bên trong khung chứa */
+    margin: 10px; /* Đặt khoảng cách bên ngoài khung chứa */
+    border-radius: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+.theokhoa a{
+    text-decoration: none;
+    color: #000;
+}
+.img1{
+    width:70px;
+}
+
+
+/* Slide */
+.slide_body
+{
+    display: block;
+    margin-top: 100px;
+    width:auto ;
+}
+
+.slide_body .container{
+    display: flex;
+    background-color: rgb(25 117 220);
+
+}
+.slide_body .container .contain_slide{
+    display: flex; /* Sử dụng flexbox để căn chỉnh chữ và ảnh cạnh nhau */
+    align-items: center; /* Căn chỉnh các phần tử con theo chiều dọc */
+    justify-content:space-evenly; /* Căn chữ và ảnh về hai phía */
+    max-width: 100%;
+}
+
+.slide_body .container .contain_slide .text_slide{
+    flex-basis: 41%; /* Đặt chiều rộng của văn bản là 50% */
+    color: #fff; /* Màu chữ */
+    text-align: center; /* Căn phải cho văn bản */
+}
+
+.slide_body .container .contain_slide .img_slide{
+    flex-basis: 50%; /* Đặt chiều rộng của ảnh là 40% */
+    margin-left: 100px; /* Tạo ra một khoảng cách giữa ảnh và văn bản */
+    max-width: 600px;
+    margin-right: 30px;
+}
+
+
+
+.tintt .title_tin{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* footer */
+
+    footer{
+        display: block;
+        background-color: #fff ;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 5px;
+        margin-top: 30px;
+    }
+
+    footer .container .row{
+        display: flex;
+        justify-content:center; 
+
+    }
+    footer .container .row .col-3{
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-right: 100px;
+        margin-bottom: 30px;
+    }
+
+    footer .container .row .col-3 nav .nav_link li a{
+        text-decoration: none;
+        list-style-type: none;
+        padding-left: 0;
+        color: #000;
+    }
+
